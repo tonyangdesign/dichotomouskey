@@ -1,0 +1,95 @@
+body {
+    font-family: 'Sarabun', sans-serif; /* ใช้ฟอนต์ที่อ่านง่าย */
+    background-color: #f0f4f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-container h2 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #1b5e20;
+}
+
+.result-name-th {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1a237e;
+    margin-bottom: 10px;
+}
+.result-name-sci {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 5px;
+}
+.result-family {
+    font-size: 1em;
+    color: #777;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option-button, #reset-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: left;
+}
+
+.option-button:hover {
+    background-color: #43a047;
+    transform: translateY(-2px);
+}
+
+#reset-button {
+    background-color: #f44336;
+    margin-top: 20px;
+    text-align: center;
+}
+#reset-button:hover {
+    background-color: #d32f2f;
+}
+
+.hidden {
+    display: none;
+}
